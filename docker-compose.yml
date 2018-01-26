@@ -23,6 +23,7 @@ services:
     
  redis:
    image: sameersbn/redis:latest
+   restart: always
    networks:
       - "web"
    ports:
